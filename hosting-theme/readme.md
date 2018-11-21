@@ -1,2 +1,2 @@
-# Travel Ville - A Travel Agency HTML, CSS Theme
+# Hostingu - A Hosting Company HTML, CSS Theme
 This theme is built by using [materalize css](https://materializecss.com/) farmework
