@@ -1,0 +1,104 @@
+.leasure-margin {
+  margin-top: 1000px;
+}
+
+/*
+  To override the default styling of materialize,
+  it is mandatory to include !important to overwrite
+  the default value of a property.
+*/
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.8rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+}
+
+h6 {
+  font-size: 1.2rem;
+}
+
+.slider .btn {
+  margin-top: 20px;
+}
+
+textarea.materialize-textarea {
+  height: 6rem !important;
+}
+
+
+.section-search .input-field {
+  border-radius: 10px;
+}
+
+.sd-input {
+  padding: 5px !important;
+  font-size: 18px !important;
+  /* width: 90% !important; */
+  border: #f4f4f4 3px solid !important;
+  box-sizing: border-box !important;
+}
+
+.section-follow .fa-4x {
+  margin: 5px 10px;
+}
+
+.section-contact form {
+  margin-top: 30px;
+}
+
+.ul.slides:before {
+  content: "";
+  width: 100%;
+  border: px solid blck;
+  height: 500px;
+}
+
+.slider .slides li .caption {
+  z-index: 1050;
+}
+
+.slider .slides li:before {
+  content: "";
+  z-index: 1000;
+  width: 100%;
+  display: block;
+  height: 500px;
+  z-index: 120;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.card .card-image .card-title {
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: block !important;
+}
+
+@media (max-width: 600px) {
+  .section-gallery .responsive-img {
+    margin-bottom: 20px;
+  }
+
+  .section-gallery .row {
+    margin-bottom: 0px;
+  }
+}

@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Import Google Icon Font -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <!-- Import materialize.css -->
+  <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css" media="screen,projection" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0"
+    crossorigin="anonymous"></script>
+
+  <!-- Let browser know website is optimized for mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body id="home" class="scrollspy">
+  <div class="navbar-fixed">
+    <nav class="teal">
+      <div class="nav-wrapper">
+        <div class="container">
+          <a href="#!" class="brand-logo">Travel Ville</a>
+          <a href="#" data-target="mobile-menu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#search">Search</a></li>
+            <li><a href="#popular">Popular Places</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!-- SideNav Links -->
+  <ul class="sidenav" id="mobile-menu">
+    <li><a href="#!">Home</a></li>
+    <li><a href="#!">Search</a></li>
+    <li><a href="#!">Popular Places</a></li>
+    <li><a href="#!">Gallery</a></li>
+    <li><a href="#!">Contact</a></li>
+  </ul>
+  <!-- / SideNav Links -->
+
+  <!-- Slider -->
+  <section class="slider">
+    <div class="overlay-black"></div>
+    <ul class="slides">
+      <li>
+        <img src="assets/img/resort-1.jpeg" />
+        <!-- random image -->
+        <div class="caption center-align">
+          <h3>Take Your Dream Vacation!</h3>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur.</h5>
+          <a href="#!" class="btn waves-effect waves-light teal">Learn more...</a>
+        </div>
+      </li>
+      <li>
+        <img src="assets/img/resort-2.jpeg" />
+        <!-- random image -->
+        <div class="caption left-align">
+          <h3>We Work With All Budgets</h3>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur.</h5>
+          <a href="#!" class="btn waves-effect waves-light teal">Learn more...</a>
+        </div>
+      </li>
+      <li>
+        <img src="assets/img/resort-3.jpeg" />
+        <!-- random image -->
+        <div class="caption right-align">
+          <h3>Group &amp; Individuals</h3>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur.</h5>
+          <a href="#!" class="btn waves-effect waves-light teal">Learn more...</a>
+        </div>
+      </li>
+      <li>
+        <img src="assets/img/resort-4.jpeg" />
+        <!-- random image -->
+        <div class="caption center-align">
+          <h3>Come and Join Us With To Experience A Great Journey!</h3>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur.</h5>
+          <a href="#!" class="btn waves-effect waves-light teal">Learn more...</a>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <!-- / Slider -->
+
+  <!-- Search -->
+  <section id="search" class="section section-search teal darken-1 white-text center-align scrollspy">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <h3>Search Destinations</h3>
+          <div class="input-field">
+            <input type="text" name="search" id="autocomplete-input" class="sd-input white grey-text autocomplete"
+              placeholder="Aruba, Cancun, etc..." />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- / Search -->
+
+  <!-- Card-Panel Boxes -->
+  <section class="section grey lighten-4 center-align">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="card-panel">
+            <span class="">
+              <i class="material-icons large teal-text">room</i>
+              <h4>Pick Where</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, eos.
+              </p>
+            </span>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="card-panel">
+            <span class="">
+              <i class="material-icons large teal-text">store</i>
+              <h4>Travel Shop</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, eos.
+              </p>
+            </span>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="card-panel">
+            <span class="">
+              <i class="material-icons large teal-text">airplanemode_active</i>
+              <h4>Fly Cheap</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, eos.
+              </p>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- / Card-Panel Boxes -->
+
+  <!-- Popular -->
+  <section id="popular" class="section section-popular scrollspy">
+    <div class="container">
+      <div class="row">
+        <h4 class="center"><span class="teal-text">Popular</span> Places</h4>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="assets/img/resort-1.jpeg" alt="Cancun, Mexico" />
+              <span class="card-title">Cancun, Mexico</span>
+            </div>
+            <div class="card-content">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, molestiae!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="assets/img/resort-2.jpeg" alt="Cancun, Mexico" />
+              <span class="card-title">The Bahamas</span>
+            </div>
+            <div class="card-content">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, molestiae!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="assets/img/resort-3.jpeg" alt="Cancun, Mexico" />
+              <span class="card-title">Nova Scotia</span>
+            </div>
+            <div class="card-content">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, molestiae!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 center-align">
+          <a href="#contact" class="btn-large amber darken-4">
+            <i class="material-icons left">phone</i> Contact For Booking
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- / Popular -->
+
+  <!-- Follow -->
+  <section class="section section-follow teal darken-3 center-align white-text">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <h4>Follow Travel Ville</h4>
+          <p>Follow Travel Ville on social media for special offers</p>
+          <a href="#!" class="white-text">
+            <i class="fab fa-facebook fa-4x"></i>
+          </a>
+          <a href="#!" class="white-text">
+            <i class="fab fa-twitter fa-4x"></i>
+          </a>
+          <a href="#!" class="white-text">
+            <i class="fab fa-linkedin fa-4x"></i>
+          </a>
+          <a href="#!" class="white-text">
+            <i class="fab fa-google-plus fa-4x"></i>
+          </a>
+          <a href="#!" class="white-text">
+            <i class="fab fa-pinterest fa-4x"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /Follow -->
+
+  <!-- Gallery -->
+  <section id="gallery" class="section section-gallery scrollspy">
+    <div class="container">
+      <h4 class="center-align">
+        <span class="teal-text">Photo</span> Gallery
+      </h4>
+      <div class="row">
+        <div class="col s12 m3">
+          <img src="assets/img/resort-1.jpeg" alt="resort" class="materialboxed responsive-img">
+        </div>
+        <div class="col s12 m3">
+          <img src="assets/img/resort-2.jpeg" alt="resort" class="materialboxed responsive-img">
+        </div>
+        <div class="col s12 m3">
+          <img src="assets/img/resort-3.jpeg" alt="resort" class="materialboxed responsive-img">
+        </div>
+        <div class="col s12 m3">
+          <img src="assets/img/resort-4.jpeg" alt="resort" class="materialboxed responsive-img">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 m3">
+          <img src="assets/img/resort-5.jpeg" alt="resort" class="materialboxed responsive-img">
+        </div>
+        <div class="col s12 m3">
+          <img src="assets/img/resort-6.jpg" alt="resort" class="materialboxed responsive-img">
+        </div>
+        <div class="col s12 m3">
+          <img src="assets/img/resort-7.jpeg" alt="resort" class="materialboxed responsive-img">
+        </div>
+        <div class="col s12 m3">
+          <img src="assets/img/resort-8.jpeg" alt="resort" class="materialboxed responsive-img">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 m3">
+          <img src="assets/img/resort-9.jpeg" alt="resort" class="materialboxed responsive-img">
+        </div>
+        <div class="col s12 m3">
+          <img src="assets/img/resort-10.jpeg" alt="resort" class="materialboxed responsive-img">
+        </div>
+        <div class="col s12 m3">
+          <img src="assets/img/resort-11.jpeg" alt="resort" class="materialboxed responsive-img">
+        </div>
+        <div class="col s12 m3">
+          <img src="assets/img/resort-12.jpeg" alt="resort" class="materialboxed responsive-img">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /Gallery -->
+
+  <!-- Contact -->
+  <section id="contact" class="section section-contact scrollspy">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card-panel teal white-text center-align">
+            <i class="material-icons medium">email</i>
+            <h5>Contact Us For Booking</h5>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores sunt rerum facere culpa porro quis id
+              itaque cupiditate, dolor illum voluptates iste assumenda iure sequi ipsam molestiae similique fugit
+              aliquid!
+            </p>
+          </div>
+          <div class="card-panel teal white-text">
+            <h5><i class="material-icons">room</i> Location</h5>
+            <p>Travel Ville Agency</p>
+            <p>123 free web town</p>
+            <p>Faisalabad, Punjab, Pakistan</p>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card-panel grey lighten-3">
+            <h5>Contact Form</h5>
+            <form action="" method="GET">
+              <div class="input-field">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" class="validate">
+              </div>
+              <div class="input-field">
+                <label for="name">Email</label>
+                <input type="email" name="email" id="email" class="validate">
+              </div>
+              <div class="input-field">
+                <label for="name">Phone</label>
+                <input type="tel" name="phone" id="phone" class="validate">
+              </div>
+              <div class="input-field">
+                <label for="message">Message</label>
+                <textarea name="message" class="materialize-textarea validate" id="message" rows="4"></textarea>
+              </div>
+              <div class="input-field">
+                <button type="button" class="btn teal waves waves-effect waves-light">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /Contact -->
+
+  <!-- Import jQuery before materialize.js -->
+  <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="assets/js/materialize.js"></script>
+  <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
