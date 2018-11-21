@@ -1,0 +1,180 @@
+/* To be deleted in production */
+.leasure-margin {
+  margin-top: 1000px;
+}
+
+.border {
+  border: 1px solid;
+}
+
+/* /To be deleted in production */
+
+.primary-overlay {
+  background: rgba(112, 81, 176, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.main-header {
+  background: url('../img/header-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  color: #fff;
+}
+
+.main-header .showcase {
+  padding-top: 100px;
+}
+
+.active-link {
+  font-weight: bold;
+}
+
+.section-developers {
+  position: relative;
+  background-image: url('../img/code.jpg');
+  background-size: cover;
+  background-position: center;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+  min-height: 180px;
+}
+
+.section-podcast {
+  position: relative;
+  min-height: 160px;
+  background-image: url('../img/circuit.jpg');
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
+  padding: 20px;
+}
+
+.section-podcast .primary-overlay {
+  background: rgba(112, 81, 176, 0.93);
+}
+
+.section-podcast .podcast-btn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.section-testimonial p {
+  font-size: 20px !important;
+}
+
+footer .footer-copyright a {
+  color: white !important;
+  font-weight: bold !important;
+}
+
+/*
+  To override the default styling of materialize,
+  it is mandatory to include !important to overwrite
+  the default value of a property.
+*/
+
+/* Modifications in default behavior of Material UI */
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.carousel .indicators .indicator-item {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.carousel .indicators .indicator-item.active {
+  background-color: #000 !important;
+}
+
+.carousel .indicators .indicator-item {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.8rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+}
+
+h6 {
+  font-size: 1.2rem;
+}
+
+/* .carousel {
+  height: auto !important;
+  min-height: 250px !important;
+}
+
+.carousel .carousel-item {
+  min-height: 250px !important;
+  height: auto !important;
+} */
+
+textarea.materialize-textarea {
+  height: 6rem !important;
+}
+
+.ul.slides:before {
+  content: "";
+  width: 100%;
+  border: px solid blck;
+  height: 500px;
+}
+
+.slider .slides li .caption {
+  z-index: 1050;
+}
+
+.slider .slides li:before {
+  content: "";
+  z-index: 1000;
+  width: 100%;
+  display: block;
+  height: 500px;
+  z-index: 120;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.card .card-image .card-title {
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: block !important;
+}
+
+@media (max-width: 600px) {
+  .section-podcast .podcast-btn {
+    margin-top: 0px;
+    /* margin-bottom: 20px; */
+  }
+}
